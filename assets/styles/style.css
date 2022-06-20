@@ -2,6 +2,8 @@ body{
     background-image: url();
     background-repeat: no-repeat;
     background-image: url(/assets/images/image7.jpg);
+    background-size: cover;
+    background-position: center;
     color: #ffca0d;
 }
 h1{
