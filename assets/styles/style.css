@@ -63,6 +63,10 @@ footer{
 }
 footer .footer-container{
     display: flex;
+    flex-wrap: wrap;
+
+.footer{
+    margin: 50px;
 }
 
 .form-signup{
