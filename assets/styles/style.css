@@ -62,6 +62,8 @@ footer{
 }
 footer .footer-container{
     display: flex;
+.footer{
+    margin: 50px;
 }
 /* .flex-container{
     display: flex;
