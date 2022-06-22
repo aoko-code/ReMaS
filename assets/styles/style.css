@@ -11,7 +11,7 @@ h1{
 }
 
 nav{
-    background-color: black;
+    background-color: #425363;
     border-radius: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: sticky;
@@ -54,6 +54,14 @@ nav li a:hover{
     width: 130px;
 
 }
+footer{
+    background-color: #aaaaaa;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+footer .footer-container{
+    display: flex;
 .footer{
     margin: 50px;
 }
