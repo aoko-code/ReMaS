@@ -1,7 +1,7 @@
 body{
     background-image: url();
     background-repeat: no-repeat;
-    background-image: url(/assets/images/image7.jpg);
+    background-image: url(/assets/images/img6.jpg);
     background-size: cover;
     background-position: center;
     color: #ffca0d;
@@ -9,10 +9,20 @@ body{
 h1{
     color: white;
 }
+
 nav{
     background-color: black;
     border-radius: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    position: sticky;
+}
+nav .logo{
+    margin: 0;
+    font-size: 45px;
+    line-height: 0px;
+    font-weight: 700;
+    letter-spacing: 2px;
+
 }
 nav ul{
     overflow: auto;
@@ -27,6 +37,7 @@ nav li a{
     padding: 3px 3px;
     text-decoration: none;
     color: white;
+    
 }
 nav li a:hover{
     color: #ffca0d;
@@ -43,3 +54,48 @@ nav li a:hover{
     width: 130px;
 
 }
+/* .flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: coral;
+}
+.flex-container > div{
+    background-color: greenyellow;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 40px;
+
+} */
+/* .big-box div{
+    border: 1px cornflowerblue solid;
+    padding: 10px;
+    justify-content: space-between;
+    margin: 5px;
+   
+
+
+}
+.big-box{
+    display: flex; 
+    
+    
+   
+    
+}
+
+.small-box1{
+    flex: 30px;
+    background-color: chocolate;
+}
+.small-box2{
+    flex: 2px;
+    background-color: brown;
+}
+.small-box3{
+    background-color: rgb(66, 2, 34);
+    display: flex;
+    flex-direction: column;
+    flex: 10px;
+} */
