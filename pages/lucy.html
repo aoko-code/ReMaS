@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sample</title>
+    <style>
+        img{
+            height:150pt;
+            width:150pt;
+            border: 5px;
+            border-bottom: 15px solid orange;
+            border-right:  15px solid pink;
+            padding-right: 5px;
+            margin-left: 15px;
+    
+        }
+        div img:nth-of-type(2){
+            border-top: 15px solid purple;
+            border-bottom: 15px dashed yellowgreen;
+            padding-right: 0px;
+            margin: 30px;
+            /* position: absolute; */
+            /* left: 20px; */
+
+
+        }
+        nav{
+            background-color: darkred;
+            border-radius: 50px black ;
+        }
+
+        nav ul{
+            overflow: auto;
+            border-radius: 50px;
+        
+            
+        }
+        nav li{
+            float: left;
+            margin: 4px 5px;
+            padding: 5px;
+            border-right: 2px solid black;
+            color: white;
+            
+        }
+        #red{
+            width: 47px;
+            height: 47px;
+            background-color: red;
+            /* float: left; */
+            position: absolute;
+            /* top: 50px; */
+        
+        }
+        #green{
+            width: 47px;
+            height: 47px;
+            background-color: green;
+            /* float: left; */
+            /* clear: left; */
+        }
+        #yellow{
+            width: 47px;
+            height: 47px;
+            background-color: yellow;
+            /* float: left; */
+            position: relative;
+        
+           
+        }
+        #blue{
+            width: 47px;
+            height: 47px;
+            background-color: blue;
+            /* float: left; */
+            /* clear: left; */
+        }
+        .flex-container{
+            display: flex;
+            flex-wrap: wrap;
+            background-color: purple;
+        }
+        .flex-container > div{
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+            background-color: aqua;
+        }
+        .big-box div{
+            border: 2px solid black;
+            padding: 5px;
+            margin: 3px;
+            background-color: aqua;
+            color: purple;
+        }
+        .big-box{
+            display: flex;
+
+        }
+        .smallbox3{
+            display: flex;
+            flex-direction: column;
+            /* flex-wrap: nowrap;
+            justify-content: flex-start;
+            position: relative;
+            bottom: 5px; */
+            /* flex-direction: row; */
+
+        }
+        .box{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .box div{
+            border: 2px solid black;
+            padding: 3px;
+            margin: 5px;;
+            flex: 5px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <nav>
+           <ul>
+                <li> <a href="index.html"> HOME</a></li>
+                <li> <a href="pages/pastpapers.html"> PAST PAPERS</a></li>
+                <li> <a href="pages/resources.html"> RESOURSES</a></li>
+                <li> <a href="pages/tutors.html"> FOR TUTORS</a></li>
+                <li> <a href="pages/signup.html"> SIGN UP</a></li>
+                <li> <a href="pages/login.html"> LOG IN</a></li>
+            </ul>
+        </nav>
+    </section>
+    <div class="row">
+       <div class="col"> 
+           <img src="/assets/images/img2.jpg" alt="">
+           <img src="/assets/images/img3.jpg" alt="">
+           <img src="/assets/images/img5.jpg" alt="">
+       </div>
+       
+    </div>
+    <div style="float: right;">
+        <textarea name="your message" id="message" cols="25" rows="10"> your message</textarea>
+    </div>
+    <div style="clear: left;">
+        <textarea name="your message" id="message1" cols="25" rows="10"> your message</textarea>
+    </div>
+    <div id="red"></div>
+    <div id="blue"></div>
+    <div id="yellow"></div>
+    <div id="green"></div>
+    <br>
+    <h1>flexible box</h1>
+<div>
+<div class="flex-container">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+
+   
+</div>
+</div>
+<p>Try to resize the browser window</p>
+<div class="big-box">
+    <div class="smallbox1">
+        <h3>box 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius qui nulla quas maiores iusto aspernatur animi quae, culpa officia repellendus odio dolorem vero! Atque consequuntur vel tempora velit cumque officia?</p>
+    </div>
+    <div class="smallbox2">
+        <h3>box 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius qui nulla quas maiores iusto aspernatur animi quae, culpa officia repellendus odio dolorem vero! Atque consequuntur vel tempora velit cumque officia?</p>
+    </div>
+    <div class="smallbox3">
+        <h3>box 3</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius qui nulla quas maiores iusto aspernatur animi quae, culpa officia repellendus odio dolorem vero! Atque consequuntur vel tempora velit cumque officia?</p>
+        <div class="smallbox1">
+            <h3>box 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius qui nulla quas maiores iusto aspernatur animi quae, culpa officia repellendus odio dolorem vero! Atque consequuntur vel tempora velit cumque officia?</p>
+        </div>
+        <div class="smallbox1">
+            <h3>box 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius qui nulla quas maiores iusto aspernatur animi quae, culpa officia repellendus odio dolorem vero! Atque consequuntur vel tempora velit cumque officia?</p>
+        </div>
+        <div class="smallbox1">
+            <h3>box 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius qui nulla quas maiores iusto aspernatur animi quae, culpa officia repellendus odio dolorem vero! Atque consequuntur vel tempora velit cumque officia?</p>
+        </div>
+    </div>
+</div>
+<div class="box">
+        <div class="smallbox1">
+        <h3>box 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius qui nulla quas maiores iusto aspernatur animi quae, culpa officia repellendus odio dolorem vero! Atque consequuntur vel tempora velit cumque officia?</p>
+    </div>
+    <div class="smallbox1">
+        <h3>box 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius qui nulla quas maiores iusto aspernatur animi quae, culpa officia repellendus odio dolorem vero! Atque consequuntur vel tempora velit cumque officia?</p>
+    </div>
+    <div class="smallbox1">
+        <h3>box 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius qui nulla quas maiores iusto aspernatur animi quae, culpa officia repellendus odio dolorem vero! Atque consequuntur vel tempora velit cumque officia?</p>
+    </div>
+
+</div>
+    
+</body>
+</html>
