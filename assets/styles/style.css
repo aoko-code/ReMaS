@@ -8,7 +8,9 @@ body{
 }
 h1{
     color: white;
+    font-size: 30px;
 }
+
 
 nav{
     background-color: #425363;
@@ -54,6 +56,40 @@ nav li a:hover{
     width: 130px;
 
 }
+.welcome{
+    text-align: center;
+}
+.get img{
+    height: 400px;
+    width: 100%;
+
+}
+.welcome button{
+    border: 2px #aaaaaa solid;
+    background-color: #ed7700;
+    padding: 10px 50px;
+    border-radius: 50px;
+
+}
+.welcome button a{
+    text-decoration: none;
+    color: bisque;
+    font-size: 20px;
+}
+.services{
+    color: black;
+}
+.servicegrid{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 2rem;
+
+}
+.service1, .service2, .service3, .service4, .service5, .service6{
+    background-color: #bbbbbb;
+    border: #ed7700 1px solid;
+}
+
 footer{
     /* background-color: #aaaaaa; */
     position: relative;
@@ -64,11 +100,13 @@ footer{
     
 }
 footer .footer-container{
-    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
     
 }
 footer .footer-container > div{
     padding: 20px;
+    margin: 10px;
 }
 footer .footer-container .col1 ul li{
     overflow: auto;
@@ -83,7 +121,7 @@ footer .footer-container .col1 li a{
     color: black;
 }
 footer .footer-container .col2{
-    float: right;
+    float: left;
 }
 
 .login{
@@ -160,6 +198,71 @@ input{
     border-radius: 50px;
     background-color: beige;
 }
+
+/* .container{
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+    grid-template-areas: 
+    "b1 b1 b2 b2"
+    "b3 b4 b4 b5"
+    "b7 b6 b6 b5"
+    ;
+    grid-auto-rows: minmax(90px, auto);
+    gap: 2rem;
+    
+    color: black;
+}
+.container .box1{
+    background-color: aqua;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    grid-area: b1;
+    
+}
+.container .box2{
+    background-color: plum;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    grid-area: b2;
+    
+}
+.container .box3{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: orchid;
+    grid-area: b3;
+}
+.container .box4{
+    background-color: rgb(71, 61, 71);
+    grid-column: 1/2;
+    grid-row: 1/4;
+    grid-area: b4;
+}
+.container .box5{
+    background-color: rgb(128, 93, 128);
+    grid-column: 1/2;
+    grid-row: 1/4;
+    grid-area: b5;
+}
+.container .box6{
+    background-color: rgb(92, 52, 90);
+    grid-column: 2/4;
+    grid-row: 3/4;
+    grid-area: b6;
+}
+.container .box7{
+    background-color: rgb(196, 175, 195);
+    grid-column: 1/2;
+    grid-row: 3/4;
+    grid-area: b7;
+}
+c2{
+    display: grid;
+    grid-template-columns: repeat(4. 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    align-items: stretch;
+} */
+
     /* background-image: url(/ReMaS/assets/images/img4.jpg);
 } */
 /* .flex-container{
