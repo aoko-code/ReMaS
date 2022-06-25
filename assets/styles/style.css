@@ -15,11 +15,12 @@ a {
     position: relative;
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     color: #ed7700;
 }
 
-.get-started{
+.get-started {
     border-radius: 5px;
     padding: 5px 20px 6px 20px;
     margin: 5px;
@@ -29,15 +30,18 @@ a:hover{
     display: inline-block;
     border: 2px solid #aaaaaa;
 }
-.get-started:hover{
+
+.get-started:hover {
     background: #ed7700;
-    
+
 }
-nav{
+
+nav {
     padding: 0;
 
 }
-.logo{
+
+.logo {
     color: #ffff;
     font-size: 40px;
     padding: 0;
@@ -46,15 +50,18 @@ nav{
     font-weight: 600;
 
 }
-nav ul{
+
+nav ul {
     display: flex;
     align-items: center;
     list-style: none;
 }
-nav li{
+
+nav li {
     position: relative;
 }
-nav a{
+
+nav a {
     display: flex;
     color: #ffff;
     font-weight: 500;
@@ -71,71 +78,163 @@ nav .dropdown ul {
     visibility: hidden;
     background: #aaaaaa;
     transition: 0.3s;
-  }
-  nav .dropdown ul li {
+}
+
+nav .dropdown ul li {
     min-width: 200px;
-  }
- 
-  nav .dropdown ul a {
+}
+
+nav .dropdown ul a {
     padding: 10px 20px;
     font-size: 14px;
     text-transform: none;
     color: #151515;
     font-weight: 400;
-  }
-   
-  nav .dropdown ul a i {
+}
+
+nav .dropdown ul a i {
     font-size: 12px;
-  }
-   
-nav .dropdown ul a:hover, nav .dropdown ul .active:hover, nav .dropdown ul li:hover > a {
+}
+
+nav .dropdown ul a:hover,
+nav .dropdown ul .active:hover,
+nav .dropdown ul li:hover>a {
     background-color: #ffc451;
-  }
-  nav .dropdown:hover > ul {
+}
+
+nav .dropdown:hover>ul {
     opacity: 1;
     top: 100%;
     visibility: visible;
-  }
-  
-  nav .dropdown .dropdown ul {
+}
+
+nav .dropdown .dropdown ul {
     top: 0;
     left: calc(100% - 30px);
     visibility: hidden;
-  }
-  nav .dropdown .dropdown:hover > ul {
+}
+
+nav .dropdown .dropdown:hover>ul {
     opacity: 1;
     top: 0;
     left: 100%;
     visibility: visible;
-  }
-  @media (max-width: 1366px) {
+}
+
+@media (max-width: 1366px) {
     nav .dropdown .dropdown ul {
-      left: -90%;
+        left: -90%;
     }
-    nav .dropdown .dropdown:hover > ul {
-      left: -100%;
+
+    nav .dropdown .dropdown:hover>ul {
+        left: -100%;
     }
-  } */
-
-
-
-
-.search {
-    color: black;
-    padding: 12px 75px;
 }
-
-.search input {
-    border: 2px solid black;
-    border-radius: 15px;
-    padding: 3px 20px;
-    width: 130px;
-
-}
-
+/* end navbar */
 .welcome {
     text-align: center;
+    width: 100%;
+    height: 100vh;
+    background: url("/assets/images/img4.jpg") top center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    
 }
+.welcome .container{
+    position: relative;
+    padding-top: 70px;
+    text-align: center;
+}
+.welcome h1{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #fff;
+}
+.welcome h2{
+    color: aliceblue;
+    margin: 10px;
+    font-size: 20px;
+}
+.welcome .box{
+    padding: 30px 20px;
+    border: 1px solid #bbbbbb;
+    height: 100%;
+    text-align: center;
+}
+.welcome .box h3{
+    font-weight: 700;
+    font-size: 20px;
+}
+.welcome .box h3 a{
+    color: #fff;
+}
+.welcome .box h3 a:hover{
+    color: #ffc451;
+    
+}
+.welcome .box:hover{
+    
+    border-color: #ed7700;
+}
+.welcome .search {
+    /* width: 100%; */
+    position: relative;
+    display: flex;
+    margin: 10px;
+  }
+  
+  .welcome .searchTerm {
+    width: 100%;
+    border: 3px solid #ed7700;
+    border-right: none;
+    padding: 5px;
+    height: 40px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: black;
+  }
+  
+  .welcome .searchTerm:focus{
+    color: #ed7700;
+  }
+  
+  .welcome .searchButton {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #0081c9;
+    background: #0081c9;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+  .welcome .wrap{
+    width: 30%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .welcome .wrap-b{
+    position: absolute;
+    /* top: 100%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    border: 2px #aaaaaa solid;
+    background-color: #ed7700;
+    padding: 10px 50px;
+    border-radius: 50px;
+    margin: 10px;
+
+
+  }
+
+
 
 .get img {
     height: 400px;
@@ -143,13 +242,14 @@ nav .dropdown ul a:hover, nav .dropdown ul .active:hover, nav .dropdown ul li:ho
 
 }
 
-.welcome button {
+/* .welcome button {
     border: 2px #aaaaaa solid;
     background-color: #ed7700;
     padding: 10px 50px;
     border-radius: 50px;
+    
 
-}
+} */
 
 .welcome button a {
     text-decoration: none;
