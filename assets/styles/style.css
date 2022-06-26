@@ -78,6 +78,7 @@ nav .dropdown ul {
     visibility: hidden;
     background: #aaaaaa;
     transition: 0.3s;
+    left: 15px;
 }
 
 nav .dropdown ul li {
@@ -130,6 +131,7 @@ nav .dropdown .dropdown:hover>ul {
         left: -100%;
     }
 }
+
 /* end navbar */
 .welcome {
     text-align: center;
@@ -139,53 +141,65 @@ nav .dropdown .dropdown:hover>ul {
     background-attachment: fixed;
     background-size: cover;
     position: relative;
-    
+
 }
-.welcome .container{
+
+.welcome .container {
     position: relative;
     padding-top: 70px;
     text-align: center;
 }
-.welcome h1{
+
+.welcome h1 {
     font-size: 60px;
     font-weight: 600;
     line-height: 60px;
     color: #fff;
 }
-.welcome h2{
+
+.welcome h2 {
     color: aliceblue;
     margin: 10px;
     font-size: 20px;
 }
-.welcome .box{
+
+.welcome .box {
     padding: 30px 20px;
     border: 1px solid #bbbbbb;
     height: 100%;
     text-align: center;
 }
-.welcome .box h3{
+
+.welcome .box h3 {
     font-weight: 700;
     font-size: 20px;
 }
-.welcome .box h3 a{
+
+.welcome .box h3 a {
     color: #fff;
 }
-.welcome .box h3 a:hover{
+
+.welcome .box h3 a:hover {
     color: #ffc451;
-    
+
 }
-.welcome .box:hover{
-    
+
+.welcome .box:hover {
+
     border-color: #ed7700;
 }
+.welcome p{
+    color: white;
+}
+
 .welcome .search {
     /* width: 100%; */
     position: relative;
     display: flex;
     margin: 10px;
-  }
-  
-  .welcome .searchTerm {
+}
+
+.welcome .searchTerm {
     width: 100%;
     border: 3px solid #ed7700;
     border-right: none;
@@ -194,13 +208,13 @@ nav .dropdown .dropdown:hover>ul {
     border-radius: 5px 0 0 5px;
     outline: none;
     color: black;
-  }
-  
-  .welcome .searchTerm:focus{
+}
+
+.welcome .searchTerm:focus {
     color: #ed7700;
-  }
-  
-  .welcome .searchButton {
+}
+
+.welcome .searchButton {
     width: 40px;
     height: 40px;
     border: 1px solid #0081c9;
@@ -210,17 +224,18 @@ nav .dropdown .dropdown:hover>ul {
     border-radius: 0 5px 5px 0;
     cursor: pointer;
     font-size: 20px;
-  }
-  
-  /*Resize the wrap to see the search bar change!*/
-  .welcome .wrap{
+}
+
+/*Resize the wrap to see the search bar change!*/
+.welcome .wrap {
     width: 30%;
     position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-  .welcome .wrap-b{
+}
+
+.welcome .wrap-b {
     position: absolute;
     /* top: 100%;
     left: 50%; */
@@ -232,24 +247,7 @@ nav .dropdown .dropdown:hover>ul {
     margin: 10px;
 
 
-  }
-
-
-
-.get img {
-    height: 400px;
-    width: 100%;
-
 }
-
-/* .welcome button {
-    border: 2px #aaaaaa solid;
-    background-color: #ed7700;
-    padding: 10px 50px;
-    border-radius: 50px;
-    
-
-} */
 
 .welcome button a {
     text-decoration: none;
