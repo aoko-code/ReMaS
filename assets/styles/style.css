@@ -38,6 +38,7 @@ a:hover {
 
 nav {
     padding: 0;
+    background-color: rgb(83, 78, 78);
 
 }
 
@@ -52,6 +53,8 @@ nav {
 }
 
 nav ul {
+    margin: 0;
+    padding: 0;
     display: flex;
     align-items: center;
     list-style: none;
@@ -63,22 +66,34 @@ nav li {
 
 nav a {
     display: flex;
+    align-items: center;
     color: #ffff;
     font-weight: 500;
     float: left;
     font-size: 15px;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px 0 10px 30px;
+    white-space: nowrap;
+}
+nav a i{
+    font-size: 15px;
+    line-height: 0;
+    margin-left: 5px;
 }
 
 nav .dropdown ul {
     display: block;
     position: absolute;
     padding: 10px 0;
+    top: calc(100% + 30px);
+    margin: 0;
+    z-index: 99;
+    opacity: 0;
     visibility: hidden;
-    background: #aaaaaa;
+    background: #fff;
     transition: 0.3s;
     left: 15px;
+    
 }
 
 nav .dropdown ul li {
@@ -122,22 +137,12 @@ nav .dropdown .dropdown:hover>ul {
     visibility: visible;
 }
 
-@media (max-width: 1366px) {
-    nav .dropdown .dropdown ul {
-        left: -90%;
-    }
-
-    nav .dropdown .dropdown:hover>ul {
-        left: -100%;
-    }
-}
-
 /* end navbar */
 .welcome {
     text-align: center;
     width: 100%;
     height: 100vh;
-    background: url("/assets/images/img4.jpg") top center;
+    background: url("/assets/images/img12.jpg") top center;
     background-attachment: fixed;
     background-size: cover;
     position: relative;
@@ -254,26 +259,93 @@ nav .dropdown .dropdown:hover>ul {
     color: bisque;
     font-size: 20px;
 }
-
-.services {
+section{
+    padding: 50px 10px;
+    overflow: hidden;
+}
+.section-title h3{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0;
+    margin: 5px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+}
+.section-title p{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
     color: black;
 }
 
-.servicegrid {
+.services .icon-box{
+    text-align: center;
+    border: 1px solid #bbbbbb;
+    padding: 60px 20px;
+    background: #fff;
+    
+}
+.services .icon-box .icon{
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    background: #ed7700;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.services .icon-box .icon i{
+    color: #1a69b3;
+    font-size: 30px;
+}
+.testimonials{   
+    padding: 80px 0;
+    background: url("/assets/images/img11.jpg");
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+.testimony-container{
     display: grid;
     grid-template-columns: 30% 30% 30%;
-    gap: 2rem;
-
 }
-
-.service1,
-.service2,
-.service3,
-.service4,
-.service5,
-.service6 {
-    background-color: #bbbbbb;
-    border: #ed7700 1px solid;
+.testimonials .section-title{
+    color: #fff;
+    font-size: 40px;
+}
+.testimonials .testimonial-item{
+    text-align: center;
+    color: #fff;
+}
+.testimonials img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #bbbbbb;
+    margin: 0 auto;
+}
+.testimonials h3{
+    font-size: 20px;
+    margin: 10px 0 5px 0;
+    text-align: center;
+}
+.testimonials h4{
+    font-size: 15px;
+    margin: 0 0 55px 0; 
+}
+.testimonials i{
+    color: #bbbbbb;
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+}
+.testimonials p{
+    font-style: italic;
+    margin-top: 20px;
 }
 
 footer {
