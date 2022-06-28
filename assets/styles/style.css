@@ -3,11 +3,15 @@ body {
     padding: 0;
     min-height: 100vh;
     background: linear-gradient(100deg, #0081c9, #ed7700);
+    font-family: 'Fauna One', serif;
+    font-size: 16px;
 }
 
 h1 {
     color: white;
     font-size: 40px;
+    font-family: Cinzel, serif;
+    
 }
 
 a {
@@ -17,7 +21,7 @@ a {
 }
 
 a:hover {
-    color: #ed7700;
+    color: #bbb5b0;
 }
 
 .get-started {
@@ -149,7 +153,7 @@ nav .dropdown .dropdown:hover>ul {
 
 }
 
-.welcome .container {
+.container {
     position: relative;
     padding-top: 70px;
     text-align: center;
@@ -160,6 +164,7 @@ nav .dropdown .dropdown:hover>ul {
     font-weight: 600;
     line-height: 60px;
     color: #fff;
+    
 }
 
 .welcome h2 {
@@ -240,7 +245,7 @@ nav .dropdown .dropdown:hover>ul {
     transform: translate(-50%, -50%);
 }
 
-.welcome .wrap-b {
+.wrap-b {
     position: absolute;
     /* top: 100%;
     left: 50%; */
@@ -347,7 +352,20 @@ section{
     font-style: italic;
     margin-top: 20px;
 }
-
+.welcome-video{
+    text-align: center;
+}
+.welcome-video h1{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #fff;
+    
+}
+.welcome-video video{
+    width: 50%;
+    height: 30%;
+}
 footer {
     /* background-color: #aaaaaa; */
     position: relative;
