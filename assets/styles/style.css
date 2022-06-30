@@ -197,6 +197,7 @@ background-color: #ed7700;
 input{
     border-radius: 50px;
     background-color: beige;
+    padding: 10px;
 }
 
 /* .container{
