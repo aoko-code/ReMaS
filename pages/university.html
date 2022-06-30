@@ -15,94 +15,115 @@
 </head>
 
 <body>
-    <nav class="fixed-top">
-        <a class="logo" href="index.html"> ReMaS</a>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-
-            <li class="dropdown"> <a href="#"> <span>Past Papers</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                    <li class="dropdown"><a href="/pages/cbc.html"> <span> CBC </span> <i
-                                class="bi bi chevron-right"></i></a>
-                        <ul>
-                            <li><a href="grade1.html">grade 1</a></li>
-                            <li><a href="grade1.html">grade 2</a></li>
-                            <li><a href="grade1.html">grade 3</a></li>
-                            <li><a href="grade1.html">grade 4</a></li>
-                            <li><a href="grade1.html">grade 5</a></li>
-                            <li><a href="grade1.html">grade 6</a></li>
-                        </ul>
-
+    <nav class="fixed-top navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="Navbar-brand" href="../index.html"> ReMaS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse-navbar-collapse" id="navmenu">
+                <ul class="navbar-nav me-auto mb-2 lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
                     </li>
-                    <li class="dropdown"><a href="/pages/secondary.html"> <span> Secondary </span> <i
-                                class="bi bi chevron-right"></i></a>
-                        <ul>
-                            <li><a href="form1.html">form 1</a></li>
-                            <li><a href="form2.html">form 2</a></li>
-                            <li><a href="form3.html">form 3</a></li>
-                            <li><a href="form4.html">form 4</a></li>
 
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " id="nav-drop1" role="button" data-bs-toggle="dropdown" href="#"> <span>Past
+                                Papers</span>
+                            <i class="bi bi-chevron-down"></i> </a>
+                        <ul class="dropdown-menu" aria-labelledby="nav-drop1">
+                            <li class="nav-item dropdown"><a class="nav-link" id="nav-drop11" href="./cbc.html">
+                                    <span> CBC </span>
+                                    <i class="bi bi chevron-right"></i></a>
+                                <ul class="dropdown-menu" aria-labelledby="nav-drop11">
+                                    <li class="nav-item"><a class="nav-link" href="grade1.html">grade 1</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="grade1.html">grade 2</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="grade1.html">grade 3</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="grade1.html">grade 4</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="grade1.html">grade 5</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="grade1.html">grade 6</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" id="nav-drop12" href="./secondary.html"> <span>
+                                        Secondary </span> <i class="bi bi chevron-right"></i></a>
+                                <ul class="dropdown-menu" aria-labelledby="nav-drop12">
+                                    <li class="nav-item"><a class="nav-link" href="form1.html">form 1</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="form2.html">form 2</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="form3.html">form 3</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="form4.html">form 4</a></li>
+
+
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown"><a class="nav-link" id="nav-drop13"
+                                    href="./university.html"> <span>
+                                        University </span> <i class="bi bi chevron-right"></i></a>
+                                <ul class="dropdown-menu" aria-labelledby="nav-drop13">
+                                    <li class="nav-item"><a class="nav-link" href="science.html">Science</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="socialscience.html">Social
+                                            Sciences</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="law.html">Law</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="medicine.html">Medicine</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="engineering.html">Engineering</a>
+                                    </li>
+
+                                </ul>
+                            </li>
                         </ul>
-
                     </li>
-                    <li class="dropdown"><a href="/pages/university.html"> <span> University </span> <i
-                                class="bi bi chevron-right"></i></a>
-                        <ul>
-                            <li><a href="science.html">Science</a></li>
-                            <li><a href="socialscience.html">Social Sciences</a></li>
-                            <li><a href="law.html">Law</a></li>
-                            <li><a href="education.html">Education</a></li>
-                            <li><a href="medicine.html">Medicine</a></li>
-                            <li><a href="engineering.html">Engineering</a></li>
+                    <li class="nav-item dropdown"> <a class="nav-link" id="nav-drop2" href="#"> <span>Resources</span>
+                            <i class="bi bi-chevron-down"></i></a>
+                        <ul class="dropdown-menu" aria-labelledby="nav-drop2">
+                            <li class="nav-item dropdown"><a class="nav-link" id="nav-drop21" href="./cbc.html">
+                                    <span> CBC </span>
+                                    <i class="bi bi chevron-right"></i></a>
+                                <ul class="dropdown-menu" aria-labelledby="nav-drop21">
+                                    <li class="nav-item"><a class="nav-link" href="grade1.html">grade 1</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="grade1.html">grade 2</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="grade1.html">grade 3</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="grade1.html">grade 4</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="grade1.html">grade 5</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="grade1.html">grade 6</a></li>
+                                </ul>
+
+                            </li>
+                            <li class="nav-item dropdown"><a class="nav-link" id="nav-drop22"
+                                    href="./secondary.html"> <span>
+                                        Secondary </span> <i class="bi bi chevron-right"></i></a>
+                                <ul class="dropdown-menu" aria-labelledby="nav-drop22">
+                                    <li class="nav-item"><a class="nav-link" href="form1.html">form 1</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="form2.html">form 2</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="form3.html">form 3</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="form4.html">form 4</a></li>
+
+                                </ul>
+
+                            </li>
+                            <li class="nav-item dropdown"><a class="nav-link" id="nav-drop23"
+                                    href="./university.html"> <span>
+                                        University </span> <i class="bi bi chevron-right"></i></a>
+                                <ul class="dropdown-menu" aria-labelledby="nav-drop23">
+                                    <li class="nav-item"><a class="nav-link" href="science.html">Science</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="socialscience.html">Social
+                                            Sciences</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="law.html">Law</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="medicine.html">Medicine</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="engineering.html">Engineering</a>
+                                    </li>
+
+                                </ul>
+                            </li>
                         </ul>
-
                     </li>
+                    <li class="nav-item"> <a class="nav-link" href="./tutors.html"> FOR TUTORS</a></li>
+                    <a class="get-started" href="./signup.html"> SIGN UP</a>
+                    <a class="get-started" href="./login.html"> LOG IN</a>
                 </ul>
-            </li>
-            <li class="dropdown"> <a href="#"> <span>Resources</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                    <li class="dropdown"><a href="/pages/cbc.html"> <span> CBC </span> <i
-                                class="bi bi chevron-right"></i></a>
-                        <ul>
-                            <li><a href="grade1.html">grade 1</a></li>
-                            <li><a href="grade1.html">grade 2</a></li>
-                            <li><a href="grade1.html">grade 3</a></li>
-                            <li><a href="grade1.html">grade 4</a></li>
-                            <li><a href="grade1.html">grade 5</a></li>
-                            <li><a href="grade1.html">grade 6</a></li>
-                        </ul>
-
-                    </li>
-                    <li class="dropdown"><a href="/pages/secondary.html"> <span> Secondary </span> <i
-                                class="bi bi chevron-right"></i></a>
-                        <ul>
-                            <li><a href="form1.html">form 1</a></li>
-                            <li><a href="form2.html">form 2</a></li>
-                            <li><a href="form3.html">form 3</a></li>
-                            <li><a href="form4.html">form 4</a></li>
-
-                        </ul>
-
-                    </li>
-                    <li class="dropdown"><a href="/pages/university.html"> <span> University </span> <i
-                                class="bi bi chevron-right"></i></a>
-                        <ul>
-                            <li><a href="science.html">Science</a></li>
-                            <li><a href="socialscience.html">Social Sciences</a></li>
-                            <li><a href="law.html">Law</a></li>
-                            <li><a href="education.html">Education</a></li>
-                            <li><a href="medicine.html">Medicine</a></li>
-                            <li><a href="engineering.html">Engineering</a></li>
-                        </ul>
-
-                    </li>
-                </ul>
-            </li>
-            <li> <a href="pages/tutors.html"> FOR TUTORS</a></li>
-            <a class="get-started" href="pages/signup.html"> SIGN UP</a>
-            <a class="get-started" href="pages/login.html"> LOG IN</a>
-        </ul>
-        <i class="bi bi-list mobile-nav"></i>
+            </div>
+        </div>
     </nav>
 
 
