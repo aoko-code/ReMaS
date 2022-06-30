@@ -43,47 +43,22 @@ a:hover {
 nav {
     padding: 0;
     background-color: rgb(83, 78, 78);
+    list-style: none;
 
 }
 
-.logo {
-    color: #ffff;
-    font-size: 40px;
-    padding: 0;
-    line-height: 1;
-    letter-spacing: 2px;
-    font-weight: 600;
 
-}
 
 nav ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
     list-style: none;
 }
 
-nav li {
-    position: relative;
-}
 
-nav a {
-    display: flex;
-    align-items: center;
+nav a {   
     color: #ffff;
     font-weight: 500;
-    float: left;
-    font-size: 15px;
-    justify-content: space-between;
-    padding: 10px 0 10px 30px;
-    white-space: nowrap;
 }
-nav a i{
-    font-size: 15px;
-    line-height: 0;
-    margin-left: 5px;
-}
+
 
 nav .dropdown ul {
     display: block;
@@ -153,11 +128,7 @@ nav .dropdown .dropdown:hover>ul {
 
 }
 
-.container {
-    position: relative;
-    padding-top: 70px;
-    text-align: center;
-}
+
 
 .welcome h1 {
     font-size: 60px;
