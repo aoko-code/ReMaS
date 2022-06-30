@@ -118,14 +118,16 @@ nav .dropdown .dropdown:hover>ul {
 
 /* end navbar */
 .welcome {
-    text-align: center;
-    width: 100%;
-    height: 100vh;
+
     background: url("/assets/images/img12.jpg") top center;
     background-attachment: fixed;
     background-size: cover;
     position: relative;
+    top: 40px;
 
+}
+.container{
+    padding: 2rem;
 }
 
 
@@ -145,10 +147,12 @@ nav .dropdown .dropdown:hover>ul {
 }
 
 .welcome .box {
-    padding: 30px 20px;
+    margin: 2rem;
     border: 1px solid #bbbbbb;
-    height: 100%;
-    text-align: center;
+    padding: 3rem;
+
+    
+    
 }
 
 .welcome .box h3 {
@@ -217,15 +221,15 @@ nav .dropdown .dropdown:hover>ul {
 }
 
 .wrap-b {
-    position: absolute;
+    align-items: center;
     /* top: 100%;
     left: 50%; */
     /* transform: translate(-50%, -50%); */
     border: 2px #aaaaaa solid;
     background-color: #ed7700;
-    padding: 10px 50px;
+    
     border-radius: 50px;
-    margin: 10px;
+    
 
 
 }
@@ -235,11 +239,11 @@ nav .dropdown .dropdown:hover>ul {
     color: bisque;
     font-size: 20px;
 }
-section{
+/* section{
     padding: 50px 10px;
     overflow: hidden;
-}
-.section-title h3{
+} */
+/* .section-title h3{
     font-size: 15px;
     font-weight: 600;
     padding: 0;
@@ -254,7 +258,7 @@ section{
     font-weight: 700;
     text-transform: uppercase;
     color: black;
-}
+} */
 
 .services .icon-box{
     text-align: center;
