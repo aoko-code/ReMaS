@@ -282,14 +282,21 @@ nav .dropdown .dropdown:hover>ul {
     color: #1a69b3;
     font-size: 30px;
 }
-.testimonials{   
+
+.testimonials img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px dotted #bbbbbb;
+    margin: 0 auto;
+}
+/* .testimonials{   
     padding: 80px 0;
-    /* background: url("/assets/images/img11.jpg"); */
     background-position: center center;
     background-size: cover;
     position: relative;
-}
-.testimony-container{
+} */
+/* .testimony-container{
     display: grid;
     grid-template-columns: 30% 30% 30%;
 }
@@ -301,13 +308,7 @@ nav .dropdown .dropdown:hover>ul {
     text-align: center;
     color: #fff;
 }
-.testimonials img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 5px solid #bbbbbb;
-    margin: 0 auto;
-}
+
 .testimonials h3{
     font-size: 20px;
     margin: 10px 0 5px 0;
@@ -329,7 +330,7 @@ nav .dropdown .dropdown:hover>ul {
 }
 .welcome-video{
     text-align: center;
-}
+} */
 .welcome-video h1{
     font-size: 60px;
     font-weight: 600;
