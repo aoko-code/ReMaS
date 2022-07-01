@@ -420,6 +420,9 @@ input {
     border-radius: 20px;
     background-color: beige;
 }
+.input-footer{
+    float: right;
+}
 .backimage {
     background-image: url(/assets/images/img9.jpg);
 }
