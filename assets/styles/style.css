@@ -343,7 +343,7 @@ nav .dropdown .dropdown:hover>ul {
     height: 30%;
 }
 footer {
-    /* background-color: #aaaaaa; */
+  
     position: relative;
     width: 100%;
     background-color: #425363;
@@ -352,12 +352,6 @@ footer {
 
 }
 
-footer .footer-container {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    
-
-}
 
 footer .footer-container>div {
     padding: 20px;
@@ -366,7 +360,6 @@ footer .footer-container>div {
 
 footer .footer-container .col1 ul li {
     overflow: auto;
-    /* float: left; */
     list-style: none;
     margin: 13px 20px;
 
@@ -400,7 +393,7 @@ footer .footer-container .col2 {
 }
 .form fieldset{
     padding: 20px;
-}
+} */
 
 
 
@@ -416,14 +409,12 @@ button {
     border-radius: 50px;
     margin-bottom: 20px;
 
-}
+} 
 input {
     border-radius: 20px;
     background-color: beige;
 }
-.input-footer{
-    float: right;
-}
+
 .backimage {
     background-image: url(/assets/images/img9.jpg);
 }
