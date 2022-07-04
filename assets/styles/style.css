@@ -448,24 +448,28 @@ footer .footer-container .col2 {
 }
 
 .form{
-    align-items: center;
-}
-.form form{ 
-    color: black;
+    text-align: center;
     background-image: url("/assets/images/img10.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+.form form{ 
+    text-align: center;
+    color: black;
+    
+    
+   
     background-attachment: fixed;
-    margin: 0;
-    padding: 0;
+    margin-top: 40px;
+    padding:40px;
 }
 .form legend{
-    text-align: left;
+    text-align: center;
     padding: 20px;  
 }
 .form fieldset{
     padding: 20px;
-} */
+} 
 
 
 
@@ -476,15 +480,15 @@ h3 {
 }
 
 button {
-    background-color: #425363;
+    background-color: olivedrab;
     color: whitesmoke;
     border-radius: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 
 } 
 input {
-    border-radius: 20px;
-    background-color: beige;
+    border-radius: 15px;
+    background-color: yellow
 }
 
 .backimage {
@@ -532,6 +536,12 @@ input{
     border-radius: 50px;
     background-color: beige;
     padding: 10px;
+
+}
+.comp{
+    width: 15rem;
+    height:20rem;
+    color: #1a69b3;
 }
 
 
