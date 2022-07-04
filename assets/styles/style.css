@@ -355,13 +355,7 @@ nav .dropdown .dropdown:hover>ul {
     font-size: 30px;
 }
 
-.testimonials img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 5px dotted #bbbbbb;
-    margin: 0 auto;
-}
+
 /* .testimonials{   
     padding: 80px 0;
     background-position: center center;
@@ -403,6 +397,51 @@ nav .dropdown .dropdown:hover>ul {
 .welcome-video{
     text-align: center;
 } */
+.testimonials{
+    position: relative;
+    margin: 2rem 0;
+    padding: 2rem;
+    
+}
+
+.testimony-icon{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.testimony-icon i{
+    font-size: 50px;
+}
+.testimony-item{
+    position: relative;
+    margin: 0 15px;
+    text-align: center;
+}
+.testimony-item img{
+    margin: 0 auto;
+    width: 7rem;
+    padding: 1rem;
+    border: 0.5rem dotted wheat;
+    border-radius: 4rem;
+}
+.testimony-img{
+    position: relative;
+    margin-bottom: 15px;
+    z-index: 1;
+
+}
+.testimony-text{
+    margin: 0 au;
+    position: relative;
+    width: 75%;
+    text-align: center;
+    background: #bbbbbb;
+    border-radius: 500px;
+}
+.testimony-item p{
+    font-size: 1rem;
+    font-style: italic;
+}
+
 .welcome-video h1{
     font-size: 60px;
     font-weight: 600;
